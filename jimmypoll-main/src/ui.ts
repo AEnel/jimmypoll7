@@ -159,6 +159,10 @@ export function updateResults(context: MRE.Context, assets: MRE.AssetContainer, 
       y = 0.05;
       buttonSpacing = 0.3;
       break;
+      case 7:
+      y = 0.03;
+      buttonSpacing = 0.25;
+      break;
   }
 
   if(DEBUG){ console.log(`y: ${y}, buttonSpacing: ${buttonSpacing}`) }
